@@ -15,6 +15,7 @@ jobs:
         run: |
           git config --local user.email "216162100+paulhouston560@users.noreply.github.com" 
           git config --local user.name "paulhouston560"
+          git pull
 
       - name: Random commit script
         run: |
