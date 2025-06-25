@@ -3,11 +3,11 @@ on:
 
   workflow_dispatch:
 
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: "0 0 * * *" # 每天的 0:00 执行
+  #push:
+  #  branches:
+  #    - main
+  #schedule:
+  #    - cron: "0 0 * * *" # 每天的 0:00 执行
 
 jobs:
   auto:
