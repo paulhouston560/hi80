@@ -48,7 +48,7 @@ for i in range(2):
         y = loc[1]
         print(x,y)	
         time.sleep(2)
-        mouse.move(x, y, absolute=Ture, duration=0.2)
+        mouse.move(54, 430, absolute=Ture, duration=0.2)
         mouse.click('left')	
         try:
             time.sleep(5)
